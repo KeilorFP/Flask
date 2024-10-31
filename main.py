@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-model = joblib.load('C:/Users/kfall/Desktop/Proyecto3/model.pkl')
+model = joblib.load('model.pkl')
 # we do the route
 @app.route('/', methods=['GET'])
 def home():
